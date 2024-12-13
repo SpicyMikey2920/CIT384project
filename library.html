@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Library | Michael Machin</title>
+    <link rel="icon" href="img/astroman.png" type="image/x-icon">
+    <link rel="stylesheet" href="library-styles.css">
+</head>
+<body>
+    <header>
+        <img src="img/astroman.png" alt="Website Favicon" class="favicon-top">
+        <h1>The Online Library</h1>
+        <nav>
+            <ul>
+                <li><a href="portfolio.html">Back to Portfolio</a></li>
+                <li><a href="#library">Library</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="library">
+        <h2>What's Hot on the Block</h2>
+    
+        <!-- Carousel Container -->
+        <div class="carousel-container">
+
+            <div class="carousel-items">
+
+                <div class="carousel-item">
+                    <h3>Rootkits & Bootkits</h3>
+                    <div class="pdf-preview">
+                        <img src="img/rootboot.png" alt="Preview of book" width="200">
+                    </div>
+                    <a href="books/Rootkits And Bootkits.pdf" style="color:#ff0080;" download>Download PDF</a>
+                </div>
+    
+                <div class="carousel-item">
+                    <h3>Social Engineering</h3>
+                    <div class="pdf-preview">
+                        <img src="img/socialeng.png" alt="Preview of book" width="200">
+                    </div>
+                    <a href="books/Practical Social Engineering.pdf" style="color:#ff0080;" download>Download PDF</a>
+                </div>
+
+                <div class="carousel-item">
+                    <h3>Mac Malware</h3>
+                    <div class="pdf-preview">
+                        <img src="img/artmac.png" alt="Preview of book" width="200">
+                    </div>
+                    <a href="books/The Art of Mac Malware_ The Guide to Analyzing Malicious Software.pdf" style="color:#ff0080;" download>Download PDF</a>
+                </div>
+
+                <div class="carousel-item">
+                    <h3>Windows Security</h3>
+                    <div class="pdf-preview">
+                        <img src="img/wsi.png" alt="Preview of book" width="200">
+                    </div>
+                    <a href="books/Windows Security Internals_ A Deep Dive into Windows Authentication, Authorization, and Auditing.pdf" style="color:#ff0080;" download>Download PDF</a>
+                </div>
+
+                <div class="carousel-item">
+                    <h3>Metasploit</h3>
+                    <div class="pdf-preview">
+                        <img src="img/meta.png" alt="Preview of book" width="200">
+                    </div>
+                    <a href="books/2011 Metasploit_ The Penetration Tester's Guide.pdf" style="color:#ff0080;" download>Download PDF</a>
+                </div>
+
+                <div class="carousel-item">
+                    <h3>Forensic Imaging</h3>
+                    <div class="pdf-preview">
+                        <img src="img/forens.png" alt="Preview of book" width="200">
+                    </div>
+                    <a href="books/2016 Practical forensic imaging securing digital evidence with Linux tools.pdf" style="color:#ff0080;" download>Download PDF</a>
+                </div>
+
+                <div class="carousel-item">
+                    <h3>Azure Pentesting</h3>
+                    <div class="pdf-preview">
+                        <img src="img/azure.png" alt="Preview of book" width="200">
+                    </div>
+                    <a href="books/2018 Pentesting Azure Applications_ The Definitive Guide to Testing and Securing Deployments.pdf" style="color:#ff0080;" download>Download PDF</a>
+                </div>
+
+                <div class="carousel-item">
+                    <h3>Information Security</h3>
+                    <div class="pdf-preview">
+                        <img src="img/infosec.png" alt="Preview of book" width="200">
+                    </div>
+                    <a href="books/2019 Foundations of Information Security_ A Straightforward Introduction.pdf" style="color:#ff0080;" download>Download PDF</a>
+                </div>
+
+                <div class="carousel-item">
+                    <h3>Bash Scripting</h3>
+                    <div class="pdf-preview">
+                        <img src="img/bash.png" alt="Preview of book" width="200">
+                    </div>
+                    <a href="books/2024 Black Hat Bash_ Creative Scripting for Hackers and Pentesters.pdf" style="color:#ff0080;" download>Download PDF</a>
+                </div>
+
+                <div class="carousel-item">
+                    <h3>Evasive Malware</h3>
+                    <div class="pdf-preview">
+                        <img src="img/evasive.png" alt="Preview of book" width="200">
+                    </div>
+                    <a href="books/2024 Evasive Malware_ A Field Guide to Detecting, Analyzing, and Defeating Advanced Threats.pdf" style="color:#ff0080;" download>Download PDF</a>
+                </div>
+    
+            </div>
+    
+            <button class="carousel-prev" onclick="moveCarousel('prev')">❮</button>
+            <button class="carousel-next" onclick="moveCarousel('next')">❯</button>
+        </div>
+    </section>
+
+    <section id="full-list">
+        <h2>Full List of Available Downloads</h2>
+        <p>Here is the complete list of all available PDFs for download. Click to download the desired file.</p>
+        
+        <ul class="download-list">
+            <li>
+                <h3>Certified Wireless Security Professional</h3>
+                <a href="books/2010 CWNP - Certified Wireless Security Professional.pdf" download>Download PDF</a>
+            </li>
+    
+            <li>
+                <h3>Metasploit</h3>
+                <a href="books/2011 Metasploit_ The Penetration Testers Guide.pdf" download>Download PDF</a>
+            </li>
+    
+            <li>
+                <h3>Hacking Web Apps</h3>
+                <a href="books/2012 Hacking Web Apps.pdf" download>Download PDF</a>
+            </li>
+    
+            <li>
+                <h3>Penetration Testing</h3>
+                <a href="books/2014 Penetration Testing - youhavephysicalcopy.pdf" download>Download PDF</a>
+            </li>
+    
+            <li>
+                <h3>Advanced Malware Analysis</h3>
+                <a href="books/2015 Advanced Malware Analysis.pdf" download>Download PDF</a>
+            </li>
+    
+            <li>
+                <h3>Android Security</h3>
+                <a href="books/2015 Android security internals an in-depth guide to Androids security architecture.pdf" download>Download PDF</a>
+            </li>
+    
+            <li>
+                <h3>Game Hacking</h3>
+                <a href="books/2016 Game Hacking_ Developing Autonomous Bots for Online Games.pdf" download>Download PDF</a>
+            </li>
+    
+            <li>
+                <h3>iOS Application Security</h3>
+                <a href="books/2016 iOS Application Security_ The Definitive Guide for Hackers and Developers.pdf" download>Download PDF</a>
+            </li>
+    
+            <li>
+                <h3>Practical Forensic Imaging</h3>
+                <a href="books/2016 Practical forensic imaging securing digital evidence with Linux tools.pdf" download>Download PDF</a>
+            </li>
+    
+            <li>
+                <h3>Wireshark</h3>
+                <a href="books/2017 Wireshark for Security Professionals.pdf" download>Download PDF</a>
+            </li>
+    
+            <li>
+                <h3>Attacking Network Protocols</h3>
+                <a href="books/2018 Attacking network protocols.pdf" download>Download PDF</a>
+            </li>
+    
+            <li>
+                <h3>Malware Data Science</h3>
+                <a href="books/2018 Malware Data Science_ Attack Detection And Attribution.pdf" download>Download PDF</a>
+            </li>
+    
+            <li>
+                <h3>Azure Pentesting</h3>
+                <a href="books/2018 Pentesting Azure Applications_ The Definitive Guide to Testing and Securing Deployments.pdf" download>Download PDF</a>
+            </li>
+    
+            <li>
+                <h3>Practical Binary Analysis</h3>
+                <a href="books/2018 Practical Binary Analysis_ Build Your Own Linux Tools for Binary Instrumentation, Analysis, and Disassembly.pdf" download>Download PDF</a>
+            </li>
+    
+            <li>
+                <h3>Cryptography & Modern Encryption</h3>
+                <a href="books/2018 Serious cryptography_ a practical introduction to modern encryption.pdf" download>Download PDF</a>
+            </li>
+    
+            <li>
+                <h3>Information Security Foundations</h3>
+                <a href="books/2019 Foundations of Information Security_ A Straightforward Introduction.pdf" download>Download PDF</a>
+            </li>
+    
+            <li>
+                <h3>Rootkits and Bootkits</h3>
+                <a href="books/2019 Rootkits And Bootkits_ Reversing Modern Malware And Next Generation Threats.pdf" download>Download PDF</a>
+            </li>
+    
+            <li>
+                <h3>OFFSEC - OSCP</h3>
+                <a href="books/2020 OFFSEC - OSCP.pdf" download>Download PDF</a>
+            </li>
+    
+            <li>
+                <h3>Bug Bounty Bootcamp</h3>
+                <a href="books/2021 Bug Bounty Bootcamp_ The Guide to Finding and Reporting Web Vulnerabilities.pdf" download>Download PDF</a>
+            </li>
+    
+            <li>
+                <h3>Crypto Dictionary</h3>
+                <a href="books/2021 Crypto Dictionary.pdf" download>Download PDF</a>
+            </li>
+    
+            <li>
+                <h3>Designing Secure Software</h3>
+                <a href="books/2021 Designing Secure Software_ A Guide for Developers.pdf" download>Download PDF</a>
+            </li>
+    
+            <li>
+                <h3>Kali-Linux-Revealed</h3>
+                <a href="books/2021 Kali-Linux-Revealed.pdf" download>Download PDF</a>
+            </li>
+    
+            <li>
+                <h3>Mastering Defensive Security</h3>
+                <a href="books/2021 Mastering Defensive Security.pdf" download>Download PDF</a>
+            </li>
+    
+            <li>
+                <h3>OFFSEC - OSED</h3>
+                <a href="books/2021 OFFSEC - OSED.pdf" download>Download PDF</a>
+            </li>
+    
+            <li>
+                <h3>Practical IoT Hacking</h3>
+                <a href="books/2021 Practical Iot Hacking_ The Definitive Guide to Attacking the Internet of Things.pdf" download>Download PDF</a>
+            </li>
+    
+            <li>
+                <h3>Certified Cloud Security Professional</h3>
+                <a href="books/2022 CCSP Certified Cloud Security Professional.pdf" download>Download PDF</a>
+            </li>
+    
+            <li>
+                <h3>iOS Forensics for Investigators</h3>
+                <a href="books/2022 iOS forensics for Investigators.pdf" download>Download PDF</a>
+            </li>
+    
+            <li>
+                <h3>Practical Social Engineering</h3>
+                <a href="books/2022 Practical Social Engineering_ A Primer for the Ethical Hacker.pdf" download>Download PDF</a>
+            </li>
+    
+            <li>
+                <h3>Mac Malware</h3>
+                <a href="books/2022 The Art of Mac Malware_ The Guide to Analyzing Malicious Software.pdf" download>Download PDF</a>
+            </li>
+    
+            <li>
+                <h3>CEH Guide</h3>
+                <a href="books/2023 CEH_v12_Certified_Ethical_Hacker_Study_Guide_-_Ric_Messier.pdf" download>Download PDF</a>
+            </li>
+    
+            <li>
+                <h3>Bash Scripting</h3>
+                <a href="books/2024 Black Hat Bash_ Creative Scripting for Hackers and Pentesters.pdf" download>Download PDF</a>
+            </li>
+    
+            <li>
+                <h3>2024 Evading EDRs</h3>
+                <a href="books/2024 Evading EDR. The Definitive Guide to Defeating Endpoint Detection Systems.pdf" download>Download PDF</a>
+            </li>
+    
+            <li>
+                <h3>Evasive Malware</h3>
+                <a href="books/2024 Evasive Malware_ A Field Guide to Detecting, Analyzing, and Defeating Advanced Threats.pdf" download>Download PDF</a>
+            </li>
+    
+            <li>
+                <h3>Password Cracking with Kali</h3>
+                <a href="books/2024 Password Cracking with Kali Linux.pdf" download>Download PDF</a>
+            </li>
+    
+            <li>
+                <h3>Android Malware</h3>
+                <a href="books/2024 The Android Malware Handbook_ Detection and Analysis by Human and Machine.pdf" download>Download PDF</a>
+            </li>
+    
+            <li>
+                <h3>Windows Security Internals</h3>
+                <a href="books/2024 Windows Security Internals_ A Deep Dive into Windows Authentication, Authorization, and Auditing.pdf" download>Download PDF</a>
+            </li>
+
+        </ul>
+
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p style="text-align: center;">If you have any questions or need assistance with the resources, feel free to reach out via <a href="mailto:michael.machin.296@my.csun.edu" style="color:#90ff11;">email.</a></p>
+    </section>
+
+    <script src="carousel.js"></script>
+
+</body>
+</html>

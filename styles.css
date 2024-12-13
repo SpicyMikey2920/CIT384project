@@ -1,0 +1,160 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background: linear-gradient(135deg, #ff0080, #00ffff, #8a2be2);
+    background-attachment: fixed;
+    color: #e5e5e5; 
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #00ffff; 
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {color: #ff0080;}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7); 
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); 
+}
+
+h2, h3 {color: #8a2be2;text-align: center;}
+
+h2 {margin-bottom: 10px;}
+
+#about p {
+    font-size: 1.1em;
+    color: #f0f0f0; 
+    line-height: 1.6;
+}
+
+.project {
+    margin-bottom: 20px;
+    background: rgba(0, 0, 0, 0.6); 
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.project h3 {
+    color: #ff0080; 
+    font-size: 1.3em;
+}
+
+.project a {
+    text-decoration: none;
+    color: #00ffff; 
+    font-weight: bold;
+}
+
+.project a:hover {
+    color: #ff0080; 
+    text-decoration: underline;
+}
+
+
+#contact p {
+    font-size: 1.1em;
+    color: #f0f0f0;
+}
+
+
+form button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #ff0080;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+form button:hover {background: #e60073; }
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.8); 
+    color: #e5e5e5; 
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+
+footer a {color: #00ffff;}
+
+footer a:hover {color: #ff0080;}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {margin: 10px 0 5px;}
+
+form input,form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #333;
+    color: #fff;
+}
+
+form input:focus,form textarea:focus {outline: 2px solid #00ffff; }
+
+img {
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2); 
+}
+
+img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+
+.favicon-top {
+    width: 75px; 
+    height: 75px;
+    border-radius: 50%; 
+    display: block;
+    margin: 10px auto;
+}
